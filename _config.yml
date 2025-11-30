@@ -1,0 +1,43 @@
+# Jekyll Configuration for Blockchain Research Project
+
+title: Anomaly and Fraud Detection in Blockchain Networks
+description: Swiss National Science Foundation Research Project - A collaboration between American University of Sharjah, UAE and Bern Business School, Switzerland
+baseurl: "/Anomaly_and_Fraud_Detection_in_Blockchain_Networks"
+url: "https://digital-ai-finance.github.io"
+
+# Theme
+remote_theme: pages-themes/minimal@v0.2.0
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Plugins
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+
+# Collections
+collections:
+  publications:
+    output: true
+  team:
+    output: false
+
+# Default settings
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# Exclude from build
+exclude:
+  - scrape_wix_site.py
+  - scraped_content.json
+  - screenshots
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - "*.py"
+  - "*.json"

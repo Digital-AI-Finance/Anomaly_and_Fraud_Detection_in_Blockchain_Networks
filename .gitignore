@@ -1,0 +1,23 @@
+# Jekyll build
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Ruby
+Gemfile.lock
+vendor/
+
+# Python scraping
+__pycache__/
+*.pyc
+scraped_content.json
+screenshots/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

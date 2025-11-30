@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title | default: site.title }}</title>
+    <meta name="description" content="{{ site.description }}">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+    {% seo %}
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="{{ '/' | relative_url }}" class="nav-logo">
+                <img src="{{ '/assets/images/logo-nobackground-500_png.png' | relative_url }}" alt="Digital Finance MSCA">
+            </a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#team">Team</a>
+                <a href="#publications">Publications</a>
+                <a href="#output">Output</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        {{ content }}
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Funding</h4>
+                    <p>Swiss National Science Foundation</p>
+                    <p>Faculty Research Grant (AUS, UAE)</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Partners</h4>
+                    <p>American University of Sharjah</p>
+                    <p>Bern Business School</p>
+                    <p>University of Twente</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="https://www.digital-finance-msca.com" target="_blank"><i class="fas fa-globe"></i></a>
+                        <a href="https://www.linkedin.com/company/digital-finance-msca" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Part of the MSCA Industrial Doctoral Network on Digital Finance</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Smooth Scroll Script -->
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
