@@ -136,8 +136,14 @@ img {
     padding: 0.5rem 1rem;
     border-radius: 50px;
     font-size: 0.85rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.5rem;
+    margin-right: 0.5rem;
     backdrop-filter: blur(5px);
+}
+
+.hero-badge.completed {
+    background: rgba(56, 161, 105, 0.3);
+    border: 1px solid rgba(56, 161, 105, 0.5);
 }
 
 .hero-title {
@@ -336,6 +342,22 @@ img {
     margin-bottom: 0.5rem;
 }
 
+.team-info h3 a.orcid-link {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.team-info h3 a.orcid-link:hover {
+    color: var(--accent-color);
+}
+
+.team-info h3 a.orcid-link i.fa-orcid {
+    color: #a6ce39;
+    font-size: 0.9em;
+    margin-left: 0.25rem;
+}
+
 .team-role {
     color: var(--accent-color);
     font-weight: 600;
@@ -463,6 +485,22 @@ img {
     color: white;
 }
 
+.publication-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.publication-doi.scholar {
+    background: #4285f4;
+    color: white;
+}
+
+.publication-doi.scholar:hover {
+    background: #1a73e8;
+}
+
 /* ===== Funding Section ===== */
 .funding-grid {
     display: grid;
@@ -493,6 +531,43 @@ img {
 .funding-period {
     font-size: 0.9rem;
     opacity: 0.7;
+}
+
+/* ===== Partners Section ===== */
+.partners-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.partner-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1rem;
+    background: white;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-md);
+    text-align: center;
+    transition: var(--transition);
+    color: var(--text-color);
+}
+
+.partner-link:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+    color: var(--primary-color);
+}
+
+.partner-link i {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.partner-link span {
+    font-weight: 500;
+    font-size: 0.95rem;
 }
 
 /* ===== Footer ===== */
@@ -568,6 +643,10 @@ img {
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .partners-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     .footer-content {
         grid-template-columns: 1fr;
         text-align: center;
@@ -580,7 +659,8 @@ img {
     }
 
     .about-grid,
-    .funding-grid {
+    .funding-grid,
+    .partners-grid {
         grid-template-columns: 1fr;
     }
 
