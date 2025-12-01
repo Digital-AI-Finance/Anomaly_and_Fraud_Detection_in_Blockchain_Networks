@@ -94,13 +94,13 @@ img {
 
 /* ===== Hero Section ===== */
 .hero {
-    min-height: 100vh;
+    min-height: auto;
     display: flex;
     align-items: center;
     background: var(--gradient-primary);
     position: relative;
     overflow: hidden;
-    padding-top: 80px;
+    padding: 100px 0 60px;
 }
 
 .hero::before {
@@ -122,7 +122,7 @@ img {
     z-index: 1;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 4rem;
+    gap: 2rem;
     align-items: center;
 }
 
@@ -133,11 +133,11 @@ img {
 .hero-badge {
     display: inline-block;
     background: rgba(255,255,255,0.2);
-    padding: 0.5rem 1rem;
+    padding: 0.35rem 0.75rem;
     border-radius: 50px;
-    font-size: 0.85rem;
+    font-size: 0.75rem;
     margin-bottom: 0.5rem;
-    margin-right: 0.5rem;
+    margin-right: 0.35rem;
     backdrop-filter: blur(5px);
 }
 
@@ -147,28 +147,29 @@ img {
 }
 
 .hero-title {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 700;
     line-height: 1.2;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.75rem;
 }
 
 .hero-subtitle {
-    font-size: 1.25rem;
+    font-size: 1rem;
     opacity: 0.9;
-    margin-bottom: 2rem;
-    line-height: 1.6;
+    margin-bottom: 1rem;
+    line-height: 1.5;
 }
 
 .hero-cta {
     display: inline-flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 0.35rem;
     background: var(--accent-color);
     color: var(--primary-color);
-    padding: 1rem 2rem;
+    padding: 0.6rem 1.25rem;
     border-radius: 50px;
     font-weight: 600;
+    font-size: 0.9rem;
     transition: var(--transition);
 }
 
@@ -186,14 +187,14 @@ img {
 }
 
 .blockchain-animation {
-    width: 400px;
-    height: 400px;
+    width: 250px;
+    height: 250px;
     position: relative;
 }
 
 .blockchain-node {
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
     background: rgba(255,255,255,0.2);
     border: 2px solid rgba(255,255,255,0.5);
     border-radius: 50%;
@@ -207,7 +208,7 @@ img {
 
 .blockchain-node i {
     color: white;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .blockchain-node:nth-child(1) { top: 0; left: 50%; transform: translateX(-50%); animation-delay: 0s; }
@@ -216,7 +217,7 @@ img {
 .blockchain-node:nth-child(4) { bottom: 0; left: 50%; transform: translateX(-50%); animation-delay: 0.9s; }
 .blockchain-node:nth-child(5) { bottom: 30%; left: 0; animation-delay: 1.2s; }
 .blockchain-node:nth-child(6) { top: 30%; left: 0; animation-delay: 1.5s; }
-.blockchain-node.center { top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100px; height: 100px; background: var(--accent-color); }
+.blockchain-node.center { top: 50%; left: 50%; transform: translate(-50%, -50%); width: 65px; height: 65px; background: var(--accent-color); }
 
 @keyframes pulse {
     0%, 100% { transform: translateX(-50%) scale(1); opacity: 1; }
@@ -237,7 +238,7 @@ img {
 
 /* ===== Sections ===== */
 .section {
-    padding: 5rem 0;
+    padding: 2.5rem 0;
 }
 
 .section-alt {
@@ -252,18 +253,18 @@ img {
 
 .section-header {
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem;
 }
 
 .section-title {
-    font-size: 2.5rem;
+    font-size: 1.75rem;
     color: var(--primary-color);
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     font-family: Georgia, 'Times New Roman', serif;
 }
 
 .section-subtitle {
-    font-size: 1.1rem;
+    font-size: 0.95rem;
     color: var(--text-light);
     max-width: 600px;
     margin: 0 auto;
@@ -273,12 +274,12 @@ img {
 .about-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .about-card {
     background: white;
-    padding: 2rem;
+    padding: 1.25rem;
     border-radius: var(--border-radius);
     box-shadow: var(--shadow-md);
     transition: var(--transition);
@@ -291,10 +292,11 @@ img {
 
 .about-card h3 {
     color: var(--primary-color);
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     display: flex;
     align-items: center;
-    gap: 0.75rem;
+    gap: 0.5rem;
+    font-size: 1rem;
 }
 
 .about-card h3 i {
@@ -303,14 +305,15 @@ img {
 
 .about-card p {
     color: var(--text-light);
-    line-height: 1.7;
+    line-height: 1.5;
+    font-size: 0.9rem;
 }
 
 /* ===== Team Section ===== */
 .team-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
 }
 
 .team-card {
@@ -329,17 +332,18 @@ img {
 
 .team-card img {
     width: 100%;
-    height: 250px;
+    height: 180px;
     object-fit: cover;
 }
 
 .team-info {
-    padding: 1.5rem;
+    padding: 0.75rem;
 }
 
 .team-info h3 {
     color: var(--primary-color);
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.25rem;
+    font-size: 0.95rem;
 }
 
 .team-info h3 a.orcid-link {
@@ -361,52 +365,52 @@ img {
 .team-role {
     color: var(--accent-color);
     font-weight: 600;
-    font-size: 0.9rem;
-    margin-bottom: 0.5rem;
+    font-size: 0.8rem;
+    margin-bottom: 0.25rem;
 }
 
 .team-affiliation {
     color: var(--text-light);
-    font-size: 0.85rem;
+    font-size: 0.75rem;
 }
 
 /* ===== Stats Section ===== */
 .stats-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .stat-card {
     background: white;
-    padding: 2rem;
+    padding: 1rem;
     border-radius: var(--border-radius);
     text-align: center;
     box-shadow: var(--shadow-md);
 }
 
 .stat-number {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 700;
     color: var(--primary-color);
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.25rem;
 }
 
 .stat-label {
     color: var(--text-light);
-    font-size: 0.95rem;
+    font-size: 0.8rem;
 }
 
 /* ===== Publications Section ===== */
 .publications-list {
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 0.75rem;
 }
 
 .publication-card {
     background: white;
-    padding: 2rem;
+    padding: 1rem 1.25rem;
     border-radius: var(--border-radius);
     box-shadow: var(--shadow-md);
     border-left: 4px solid var(--text-light);
@@ -442,40 +446,47 @@ img {
 
 .publication-card h3 {
     color: var(--primary-color);
-    margin-bottom: 0.75rem;
-    font-size: 1.1rem;
+    margin-bottom: 0.4rem;
+    font-size: 1rem;
     font-family: Georgia, 'Times New Roman', serif;
 }
 
 .publication-authors {
     color: var(--text-light);
-    font-size: 0.9rem;
-    margin-bottom: 0.5rem;
+    font-size: 0.8rem;
+    margin-bottom: 0.25rem;
 }
 
 .publication-journal {
     color: var(--primary-color);
     font-style: italic;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-weight: 500;
 }
 
 .publication-citations {
     color: #38a169;
-    font-size: 0.85rem;
+    font-size: 0.75rem;
     font-weight: 600;
-    margin-top: 0.25rem;
+    margin-top: 0.15rem;
+}
+
+.publication-desc {
+    color: var(--text-light);
+    font-size: 0.8rem;
+    margin-top: 0.4rem;
+    line-height: 1.4;
 }
 
 .publication-doi {
     display: inline-flex;
     align-items: center;
-    gap: 0.5rem;
-    margin-top: 1rem;
-    padding: 0.5rem 1rem;
+    gap: 0.35rem;
+    margin-top: 0.5rem;
+    padding: 0.3rem 0.6rem;
     background: var(--bg-light);
     border-radius: 4px;
-    font-size: 0.85rem;
+    font-size: 0.75rem;
     color: var(--primary-color);
     transition: var(--transition);
 }
@@ -488,8 +499,8 @@ img {
 .publication-links {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.5rem;
-    margin-top: 1rem;
+    gap: 0.35rem;
+    margin-top: 0.5rem;
 }
 
 .publication-doi.scholar {
@@ -505,31 +516,31 @@ img {
 .funding-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .funding-card {
     background: var(--gradient-primary);
     color: white;
-    padding: 2.5rem;
+    padding: 1.25rem;
     border-radius: var(--border-radius);
     text-align: center;
 }
 
 .funding-amount {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     font-weight: 700;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.25rem;
 }
 
 .funding-source {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     opacity: 0.9;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.25rem;
 }
 
 .funding-period {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     opacity: 0.7;
 }
 
@@ -537,14 +548,14 @@ img {
 .partners-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .partner-link {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 2rem 1rem;
+    padding: 1rem 0.75rem;
     background: white;
     border-radius: var(--border-radius);
     box-shadow: var(--shadow-md);
@@ -554,27 +565,27 @@ img {
 }
 
 .partner-link:hover {
-    transform: translateY(-5px);
+    transform: translateY(-3px);
     box-shadow: var(--shadow-lg);
     color: var(--primary-color);
 }
 
 .partner-link i {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     color: var(--primary-color);
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .partner-link span {
     font-weight: 500;
-    font-size: 0.95rem;
+    font-size: 0.8rem;
 }
 
 /* ===== Footer ===== */
 .footer {
     background: var(--bg-dark);
     color: white;
-    padding: 4rem 0 2rem;
+    padding: 2rem 0 1rem;
 }
 
 .footer-container {
@@ -586,19 +597,20 @@ img {
 .footer-content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 3rem;
-    margin-bottom: 3rem;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .footer-section h4 {
     color: var(--accent-color);
-    margin-bottom: 1rem;
-    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
 }
 
 .footer-section p {
     color: rgba(255,255,255,0.7);
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.25rem;
+    font-size: 0.85rem;
 }
 
 .social-links {
@@ -618,10 +630,10 @@ img {
 
 .footer-bottom {
     text-align: center;
-    padding-top: 2rem;
+    padding-top: 1rem;
     border-top: 1px solid rgba(255,255,255,0.1);
     color: rgba(255,255,255,0.5);
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
 
 /* ===== Responsive ===== */
@@ -665,22 +677,22 @@ img {
     }
 
     .section-title {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .hero-title {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .stats-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .stat-card {
-        padding: 1.5rem;
+        padding: 0.75rem;
     }
 
     .stat-number {
-        font-size: 2.5rem;
+        font-size: 1.5rem;
     }
 }
