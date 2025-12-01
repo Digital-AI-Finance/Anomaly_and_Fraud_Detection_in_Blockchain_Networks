@@ -253,6 +253,7 @@ img {
     font-size: 2.5rem;
     color: var(--primary-color);
     margin-bottom: 1rem;
+    font-family: Georgia, 'Times New Roman', serif;
 }
 
 .section-subtitle {
@@ -386,8 +387,13 @@ img {
     padding: 2rem;
     border-radius: var(--border-radius);
     box-shadow: var(--shadow-md);
-    border-left: 4px solid var(--accent-color);
+    border-left: 4px solid var(--text-light);
     transition: var(--transition);
+    position: relative;
+}
+
+.publication-card.published {
+    border-left-color: #38a169;
 }
 
 .publication-card:hover {
@@ -395,10 +401,28 @@ img {
     box-shadow: var(--shadow-lg);
 }
 
+.publication-badge {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 0.75rem;
+    background: #38a169;
+    color: white;
+}
+
+.publication-badge.preprint {
+    background: #718096;
+}
+
 .publication-card h3 {
     color: var(--primary-color);
     margin-bottom: 0.75rem;
     font-size: 1.1rem;
+    font-family: Georgia, 'Times New Roman', serif;
 }
 
 .publication-authors {
@@ -408,9 +432,35 @@ img {
 }
 
 .publication-journal {
-    color: var(--accent-color);
+    color: var(--primary-color);
     font-style: italic;
     font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.publication-citations {
+    color: #38a169;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-top: 0.25rem;
+}
+
+.publication-doi {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background: var(--bg-light);
+    border-radius: 4px;
+    font-size: 0.85rem;
+    color: var(--primary-color);
+    transition: var(--transition);
+}
+
+.publication-doi:hover {
+    background: var(--primary-color);
+    color: white;
 }
 
 /* ===== Funding Section ===== */
