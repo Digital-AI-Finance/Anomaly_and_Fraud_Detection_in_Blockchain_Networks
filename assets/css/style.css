@@ -335,6 +335,7 @@ img {
     width: 100%;
     height: 100px;
     object-fit: cover;
+    object-position: center top;
 }
 
 .team-info {
@@ -514,11 +515,267 @@ img {
     background: #1a73e8;
 }
 
+/* ===== Impact Section ===== */
+.impact-section {
+    margin-top: 0.75rem;
+    padding: 0.75rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: var(--shadow-sm);
+    border-left: 4px solid var(--accent-color);
+}
+
+.impact-section h3 {
+    color: var(--primary-color);
+    font-size: 0.9rem;
+    margin-bottom: 0.4rem;
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+}
+
+.impact-section h3 i {
+    color: var(--accent-color);
+}
+
+.impact-section p {
+    color: var(--text-light);
+    font-size: 0.75rem;
+    line-height: 1.5;
+}
+
+/* ===== Academic Events Section ===== */
+.events-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+}
+
+.event-card {
+    background: white;
+    padding: 0.75rem;
+    border-radius: 8px;
+    box-shadow: var(--shadow-sm);
+    transition: var(--transition);
+}
+
+.event-card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+}
+
+.event-date {
+    display: inline-block;
+    background: var(--accent-color);
+    color: var(--primary-color);
+    padding: 0.15rem 0.4rem;
+    border-radius: 3px;
+    font-size: 0.6rem;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+}
+
+.event-card h3 {
+    color: var(--primary-color);
+    font-size: 0.85rem;
+    margin-bottom: 0.2rem;
+}
+
+.event-location {
+    color: var(--text-light);
+    font-size: 0.65rem;
+    font-style: italic;
+    margin-bottom: 0.25rem;
+}
+
+.event-desc {
+    color: var(--text-light);
+    font-size: 0.7rem;
+    line-height: 1.4;
+}
+
+/* ===== Collaborations Section ===== */
+.collab-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5rem;
+}
+
+.collab-card {
+    background: white;
+    padding: 0.6rem;
+    border-radius: 8px;
+    box-shadow: var(--shadow-sm);
+    transition: var(--transition);
+}
+
+.collab-card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+}
+
+.collab-card.network {
+    background: var(--gradient-primary);
+    color: white;
+}
+
+.collab-card.network h3,
+.collab-card.network .collab-dept,
+.collab-card.network .collab-contact {
+    color: white;
+}
+
+.collab-card.network .collab-activities li {
+    color: rgba(255,255,255,0.9);
+}
+
+.collab-card h3 {
+    color: var(--primary-color);
+    font-size: 0.8rem;
+    margin-bottom: 0.15rem;
+}
+
+.collab-dept {
+    color: var(--text-light);
+    font-size: 0.65rem;
+    margin-bottom: 0.1rem;
+}
+
+.collab-contact {
+    color: var(--accent-color);
+    font-size: 0.65rem;
+    font-weight: 500;
+    margin-bottom: 0.3rem;
+}
+
+.collab-activities {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.collab-activities li {
+    font-size: 0.6rem;
+    color: var(--text-light);
+    padding-left: 0.7rem;
+    position: relative;
+    margin-bottom: 0.1rem;
+}
+
+.collab-activities li::before {
+    content: "-";
+    position: absolute;
+    left: 0;
+}
+
+/* ===== Follow-up Projects Section ===== */
+.followup-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+}
+
+.followup-card {
+    background: white;
+    padding: 0.6rem 0.8rem;
+    border-radius: 8px;
+    box-shadow: var(--shadow-sm);
+    transition: var(--transition);
+    border-left: 3px solid var(--accent-color);
+}
+
+.followup-card:hover {
+    transform: translateX(3px);
+    box-shadow: var(--shadow-md);
+}
+
+.followup-card h3 {
+    color: var(--primary-color);
+    font-size: 0.8rem;
+    margin-bottom: 0.15rem;
+}
+
+.followup-period {
+    color: var(--accent-color);
+    font-size: 0.65rem;
+    font-weight: 600;
+    margin-bottom: 0.2rem;
+}
+
+.followup-card p:last-child {
+    color: var(--text-light);
+    font-size: 0.7rem;
+    line-height: 1.4;
+}
+
+/* ===== High Impact Publications ===== */
+.publication-card.high-impact {
+    border-left-color: var(--accent-color);
+    background: linear-gradient(to right, rgba(214, 158, 46, 0.05), white);
+}
+
+/* ===== EU Funding Acknowledgment ===== */
+.eu-funding {
+    background: var(--bg-dark);
+    color: rgba(255,255,255,0.7);
+    padding: 0.5rem 0;
+    text-align: center;
+}
+
+.eu-funding p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 0.55rem;
+    line-height: 1.4;
+}
+
 /* ===== Funding Section ===== */
 .funding-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 0.5rem;
+}
+
+.funding-grid-extended {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5rem;
+}
+
+.funding-card.primary {
+    grid-column: span 1;
+}
+
+.funding-title {
+    font-size: 0.55rem;
+    opacity: 0.8;
+    margin-top: 0.1rem;
+    font-style: italic;
+}
+
+.funding-highlight {
+    text-align: center;
+    margin-top: 0.75rem;
+    padding: 0.5rem;
+    background: var(--bg-light);
+    border-radius: 8px;
+}
+
+.funding-link-inline {
+    color: var(--primary-color);
+    font-size: 0.65rem;
+}
+
+.funding-separator {
+    color: var(--text-light);
+    margin: 0 0.3rem;
+}
+
+.funding-major {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--accent-color);
+    margin-top: 0.2rem;
 }
 
 .funding-card {
@@ -677,6 +934,16 @@ a.funding-link:hover {
     }
 }
 
+@media (max-width: 992px) {
+    .collab-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .funding-grid-extended {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 @media (max-width: 768px) {
     .nav-links {
         gap: 0.5rem;
@@ -687,7 +954,14 @@ a.funding-link:hover {
     }
 
     .about-grid,
-    .funding-grid {
+    .funding-grid,
+    .events-grid,
+    .followup-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .collab-grid,
+    .funding-grid-extended {
         grid-template-columns: 1fr;
     }
 
