@@ -32,55 +32,44 @@
     {% seo %}
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <a href="{{ '/' | relative_url }}" class="nav-logo">
-                <img src="{{ '/assets/images/logo-nobackground-500_png.png' | relative_url }}" alt="Digital Finance MSCA">
-            </a>
-            <div class="nav-links">
-                <a href="#about">About</a>
-                <a href="#team">Team</a>
-                <a href="#publications">Publications</a>
-                <a href="#output">Output</a>
-                <a href="#contact">Contact</a>
+    <div class="layout-wrapper">
+        <!-- Left Sidebar Navigation -->
+        <nav class="sidebar">
+            <div class="sidebar-header">
+                <a href="{{ '/' | relative_url }}" class="nav-logo">
+                    <img src="{{ '/assets/images/logo-nobackground-500_png.png' | relative_url }}" alt="Digital Finance MSCA">
+                </a>
             </div>
-        </div>
-    </nav>
+            <div class="sidebar-nav">
+                <a href="#about"><i class="fas fa-info-circle"></i> About</a>
+                <a href="#team"><i class="fas fa-users"></i> Team</a>
+                <a href="#output"><i class="fas fa-chart-bar"></i> Output</a>
+                <a href="#publications"><i class="fas fa-book"></i> Publications</a>
+                <a href="#events"><i class="fas fa-calendar"></i> Events</a>
+                <a href="#collaborations"><i class="fas fa-handshake"></i> Collaborations</a>
+                <a href="#funding"><i class="fas fa-coins"></i> Funding</a>
+                <a href="#followup"><i class="fas fa-arrow-right"></i> Follow-up</a>
+                <a href="#partners"><i class="fas fa-university"></i> Partners</a>
+                <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+            </div>
+            <div class="sidebar-footer">
+                <a href="https://www.digital-finance-msca.com" target="_blank"><i class="fas fa-globe"></i></a>
+                <a href="https://www.linkedin.com/company/digital-finance-msca" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </nav>
 
-    <!-- Main Content -->
-    <main>
-        {{ content }}
-    </main>
+        <!-- Main Content -->
+        <main class="main-content">
+            {{ content }}
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="footer-container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h4>Funding</h4>
-                    <p>Swiss National Science Foundation</p>
-                    <p>Faculty Research Grant (AUS, UAE)</p>
+            <!-- Footer -->
+            <footer class="footer">
+                <div class="footer-container">
+                    <p>Part of the MSCA Industrial Doctoral Network on Digital Finance | SNF Grant 211195</p>
                 </div>
-                <div class="footer-section">
-                    <h4>Partners</h4>
-                    <p>American University of Sharjah</p>
-                    <p>Bern Business School</p>
-                    <p>University of Twente</p>
-                </div>
-                <div class="footer-section">
-                    <h4>Connect</h4>
-                    <div class="social-links">
-                        <a href="https://www.digital-finance-msca.com" target="_blank"><i class="fas fa-globe"></i></a>
-                        <a href="https://www.linkedin.com/company/digital-finance-msca" target="_blank"><i class="fab fa-linkedin"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>Part of the MSCA Industrial Doctoral Network on Digital Finance</p>
-            </div>
-        </div>
-    </footer>
+            </footer>
+        </main>
+    </div>
 
     <!-- Smooth Scroll Script -->
     <script>
