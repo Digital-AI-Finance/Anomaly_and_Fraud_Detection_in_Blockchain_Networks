@@ -1,0 +1,47 @@
+BFH Project 2022-370-615-973
+URL: https://www.bfh.ch/en/research/research-projects/2022-370-615-973/
+============================================================
+
+Anomaly and fraud detection in blockchain networks
+Anomaly and fraud detection in blockchain networks
+
+This project explores anomaly & fraud detection in blockchain networks, focusing on challenges due to immutability & unique properties like decentralization. The goal is rapid detection to mitigate damages due to fraudulent activities.
+
+Factsheet
+Schools involved
+Business School
+Institute(s)
+Institute for Applied Data Science & Finance
+Funding organisation
+Others
+Duration (planned)
+01.08.2022 - 30.04.2024
+Head of project
+Jörg Robert Osterrieder
+Project staff
+Jörg Robert Osterrieder
+Prof. Dr. Branka Hadji Misheva
+Yiting Liu
+Lennart John Baals
+Keywords
+Blockchain, Cryptography, Networks
+Situation
+
+The proposed research work focuses on the problem of anomaly and fraud detection in blockchain-based and cryptocurrency networks. Due to the rising popularity of these systems in the financial sector and the potential benefits, it has become increasingly important to detect anomalies and outliers, which may be derived from true errors or more likely monetary or information fraud. Therefore, our goal is to extend and improve upon the accuracy of existing methods of static anomaly detection in the literature relating to blockchain-based network graphs through combining methods from statistics and data mining. Furthermore, our goal is also to develop a new method for dynamic anomaly detection based on data streams and statistical extreme value theory. This methodology will be particularly beneficial alongside real world blockchain-based networks to allow for the fast detection of anomalous or fraudulent data, preventing damage or allowing for damage to be corrected as soon as possible. For cryptocurrency networks, this will reduce the impact of market manipulation, fraud, and more widely on global financial markets, currencies, and trade. For blockchain-based networks in general, this will assist in reducing the impact of information loss.
+
+Course of action
+
+This academic visit will be to provide a positive contribution to both the host institute and visiting fellow. Professor Osterrieder will provide the host institute with his expertise in the area of digitalization and industrialization of the finance industry and Fintech, where faculties in interdisciplinary departments and graduate students will immensely benefit through seminars, research collaboration and projects. Also, Professor Osterrieder acts as Action Chair of the European COST Action 19130, Fintech and Artificial Intelligence in Finance (FinAI), and will be discussing future strategic directions and priorities between both universities. As well, the output of this academic visit will be pivotal in helping both universities to achieve and apply for larger external grants. These external grants will be in collaboration with existing academic and industrial partners and will involve new cross- disciplinary studies. This will be a vital part in assisting both universities future long-term goal of creating the first Blockchain research center connecting Switzerland and the MENA region. Professor Chan will provide the visiting fellow with his research expertise in blockchain, data science and statistics, which will assist in their joint collaboration project and in achieving the stated deliverables (refer to the expected outcomes).
+
+Result
+
+This academic visit aims at a profound, mutually enriching collaboration. Professor Osterrieder will contribute his expertise in digitalization and FinTech, initiating innovative impulses and enhanced inter-university cooperation. The discussions are expected to shed light on new strategic orientations and research approaches and could pave the way for additional external funding. The collaboration with Professor Chan also promises substantial advancements in data science and statistics. This visit could lay the foundational stones for the development of a Blockchain research center that connects Switzerland and the MENA region, opening up new horizons in FinTech research.
+
+Looking ahead
+
+The significance of this academic visit lies in the deepened interdisciplinary collaboration and the exchange of expertise in the field of FinTech. The infusion of know-how and innovative impulses from Professor Osterrieder and Professor Chan can open up pioneering research fields and bring about substantial advancements in data science and blockchain technology. This exchange can lead to practical, well-founded solutions that enhance the efficiency and security of financial transactions. In the future, this could lay the groundwork for further research projects and innovative applications, enabling a connected blockchain research center between Switzerland and the MENA region.
+
+Go to top
+But first, cookies 🍪
+May we store cookies on your device to improve website navigation, analyze website usage, and support our marketing?
+Yes, allow all cookiesMake cookie selectionNo, reject all

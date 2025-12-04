@@ -716,6 +716,161 @@ a.funding-link:hover {
     line-height: 1.2;
 }
 
+/* ===== Datasets Section ===== */
+.datasets-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.dataset-card {
+    background: white;
+    border-radius: var(--radius-md);
+    padding: 1rem;
+    box-shadow: var(--shadow-sm);
+    transition: var(--transition);
+}
+
+.dataset-card:hover {
+    box-shadow: var(--shadow-md);
+    transform: translateY(-2px);
+}
+
+.dataset-icon {
+    width: 2rem;
+    height: 2rem;
+    background: linear-gradient(135deg, var(--primary-color), var(--primary-light));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+}
+
+.dataset-icon i {
+    color: white;
+    font-size: 0.8rem;
+}
+
+.dataset-card h3 {
+    font-size: 0.7rem;
+    color: var(--text-color);
+    margin-bottom: 0.3rem;
+}
+
+.dataset-desc {
+    font-size: 0.5rem;
+    color: var(--text-light);
+    line-height: 1.4;
+    margin-bottom: 0.5rem;
+}
+
+.dataset-meta {
+    display: flex;
+    gap: 0.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.dataset-meta span {
+    font-size: 0.45rem;
+    color: var(--text-light);
+}
+
+.dataset-meta i {
+    margin-right: 0.2rem;
+    color: var(--primary-color);
+}
+
+.dataset-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: 0.5rem;
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+.dataset-link:hover {
+    color: var(--accent-color);
+}
+
+/* ===== Knowledge Transfer Section ===== */
+.transfer-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.transfer-card {
+    background: white;
+    border-radius: var(--radius-md);
+    padding: 1rem;
+    box-shadow: var(--shadow-sm);
+    transition: var(--transition);
+}
+
+.transfer-card:hover {
+    box-shadow: var(--shadow-md);
+}
+
+.transfer-icon {
+    width: 2rem;
+    height: 2rem;
+    background: linear-gradient(135deg, var(--accent-color), #f6ad55);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+}
+
+.transfer-icon i {
+    color: white;
+    font-size: 0.8rem;
+}
+
+.transfer-card h3 {
+    font-size: 0.7rem;
+    color: var(--text-color);
+    margin-bottom: 0.2rem;
+}
+
+.transfer-date {
+    font-size: 0.45rem;
+    color: var(--accent-color);
+    font-weight: 500;
+    margin-bottom: 0.3rem;
+}
+
+.transfer-desc {
+    font-size: 0.5rem;
+    color: var(--text-light);
+    line-height: 1.4;
+    margin-bottom: 0.5rem;
+}
+
+.transfer-outcome {
+    background: var(--bg-alt);
+    padding: 0.4rem;
+    border-radius: var(--radius-sm);
+    font-size: 0.45rem;
+}
+
+.outcome-label {
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+/* ===== PDF Link Style ===== */
+.publication-doi.pdf {
+    background: #dc2626;
+    color: white;
+}
+
+.publication-doi.pdf:hover {
+    background: #b91c1c;
+}
+
 /* ===== EU Funding ===== */
 .eu-funding {
     background: var(--bg-dark);
@@ -724,11 +879,27 @@ a.funding-link:hover {
     text-align: center;
 }
 
+.eu-funding-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.eu-flag {
+    width: 60px;
+    height: auto;
+    flex-shrink: 0;
+}
+
 .eu-funding p {
     max-width: 800px;
-    margin: 0 auto;
+    margin: 0;
     font-size: 0.45rem;
     line-height: 1.3;
+    text-align: left;
 }
 
 /* ===== Footer ===== */
@@ -770,7 +941,9 @@ a.funding-link:hover {
     }
 
     .collab-grid,
-    .funding-grid-extended {
+    .funding-grid-extended,
+    .datasets-grid,
+    .transfer-grid {
         grid-template-columns: repeat(2, 1fr);
     }
 
@@ -784,8 +957,19 @@ a.funding-link:hover {
     .events-grid,
     .followup-grid,
     .collab-grid,
-    .funding-grid-extended {
+    .funding-grid-extended,
+    .datasets-grid,
+    .transfer-grid {
         grid-template-columns: 1fr;
+    }
+
+    .eu-funding-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .eu-funding p {
+        text-align: center;
     }
 
     .team-grid {

@@ -1,0 +1,89 @@
+# SNF Final Report - Grant IZSEZ0_211195
+# Anomaly and Fraud Detection in Blockchain Networks
+
+## 1. General Information
+
+Grant number: IZSEZ0_211195
+
+Project title: Anomaly and fraud detection in blockchain networks
+
+Beginning of the Scientific Exchange: 1.1.2023
+
+End of the Scientific Exchange: 3.4.2024
+
+Visiting/host researcher:
+- Prof. Dr. Joerg Osterrieder, Bern Business School, Switzerland
+- Prof. Dr. Stephen Chan, American University of Sharjah, UAE
+
+
+## 2.1. Description of the Scientific Exchange - Activities
+
+Joerg Osterrieder did a research stay at the Department of Mathematics at the American University of Sharjah (AUS) in the UAE, spread over several visits and a time-frame of 15 months. These research trips were focused on two main areas: improving the security of blockchain technology and studying digital assets known as non-fungible token, especially in virtual environments like the Metaverse. Here is a short overview of the work produced during these stays:
+
+1. Understanding Security in Blockchain: They wrote a guide that helps people learn about the challenges in keeping blockchain technology safe from fraud and other security issues. This guide is meant to give readers a basic understanding of how to protect blockchain systems.
+
+2. Advanced Methods for Detecting Fraud in Blockchain: This work, which is still being reviewed, looks into better ways to find and prevent fraud in blockchain networks. The research done at AUS contributed to developing these new methods, aiming to make blockchain technology more secure.
+
+3. Study on Digital Assets in Virtual Worlds (NFTs): Another project under review explores how NFTs work in the Metaverse. This research aims to explain the role of NFTs in virtual environments and how they can change the way we think about owning digital items.
+
+4. Analysis of NFTs in the Metaverse: This study, submitted for publication, investigates the behavior, trends, and economic impact of NFTs in virtual worlds. The work benefits from the collaborative research environment at AUS, providing insights into how NFTs are used and valued.
+
+The cooperation between Prof. Osterrieder and Prof. Chan served as the core for expanding a global network of research collaborations, in the fields of mathematics and blockchain technology. These included engagements with Dr. Yuanyuan Zhang from the University of Manchester, UK, further work with Prof. Dr. Jeffrey Chu at Renmin University, China, a partnership with Prof. Dr. Codruta Mare at Babes-Bolyai University, Romania, and collaboration with Prof. Dr. Branka Hadji Misheva at Bern Business School, Switzerland. The efforts were characterized by deep, constructive dialogues on research methodologies and outcomes, resulting in several joint publications and the exchange of personnel. This network of collaborations, rooted in the initial work at AUS, significantly contributed to advancing research in blockchain technology and related areas.
+
+
+## Grant Acquisitions
+
+Joerg Osterrieder, Stephen Chan and their collaborators have successfully secured multiple grants for research in digital assets, blockchain security, and digital finance, highlighting the international recognition and support for their work:
+
+1. Faculty Research Grant 2024 (FRG24), American University of Sharjah (AUS), UAE: Awarded 25,000 AED for the project titled "From Digits to Dollars: The Evolution of Price Impact in Digital Assets," with Stephen Chan as the Principal Investigator (PI) and Joerg Osterrieder as the Co-PI. The grant supports research from 1 June 2024 to 31 May 2025.
+
+2. Faculty Research Grant 2023 (FRG23), AUS, UAE: This project, "Medium Anomaly and Fraud Detection in Blockchain and Cryptocurrency Networks," led by Stephen Chan (PI) and Joerg Osterrieder (Co-PI), received 248,000 AED. The research is funded for the period from 1 June 2023 to 31 May 2025.
+
+3. Centre for Digital Trust and Society's Seed Corn Funding Competition, 2023/24, University of Manchester, UK: The project "Blockchain Forensics: Criminal Analysis using R Shiny," with Yuanyuan Zhang as the PI and Joerg Osterrieder as the Co-PI, was awarded 8,560 GBP.
+
+4. MSCA Industrial Doctoral Network on Digital Finance, Europe: Joerg Osterrieder serves as the coordinator for the "Digital Finance - Reaching New Frontiers" project, which has been granted 4.5 million EUR. This substantial funding underscores the project's scale and ambition in advancing digital finance research and education across Europe.
+
+
+## 2.2. Description of the Scientific Exchange - Results
+
+The results from the series of studies on blockchain technology, Metaverse, and Non-Fungible Tokens (NFTs) provide significant insights into the security, ownership, and market dynamics of digital assets. Here's a concise overview of the findings:
+
+1. Blockchain Anomaly and Fraud Detection: The study offers a comprehensive analysis of the vulnerabilities within blockchain networks, identifying various types of anomalies and frauds. It introduces a range of detection and prevention strategies, including statistical and machine learning methods, game-theoretic solutions, and digital forensics. The research underscores the importance of advanced security measures for maintaining the integrity and reliability of blockchain networks.
+
+2. Metaverse and NFTs: This paper delves into how NFTs within the Metaverse are revolutionizing digital ownership and online economies. It explains the technological underpinnings of the Metaverse and NFTs, highlighting their role in securing digital assets and identities. The study examines the impact of NFTs on digital economies, emphasizing their potential to transform online art, ownership, and decentralized finance (DeFi).
+
+3. Stylized Facts of Metaverse NFTs: Through an empirical analysis of five notable NFTs (AXS, MANA, ENJ, THETA, SAND), this research uncovers stylized facts that characterize market behaviors, pricing mechanisms, and investor dynamics in the Metaverse NFT space. Utilizing advanced statistical methods, the study reveals insights into the complexities of the NFT market, offering valuable information for investors, content creators, and policymakers.
+
+These studies collectively advance our understanding of blockchain security, digital ownership, and the financial implications of NFTs in the Metaverse. They highlight the evolving nature of digital assets and the need for innovative regulatory and strategic approaches to navigate these emerging digital landscapes.
+
+
+## 3.1. Partnership Aspects - Added Value for the Swiss Side
+
+The international collaborations and exchanges have provided substantial benefits to the Bern Business School, where Joerg Osterrieder serves as a professor, particularly related blockchain technology, digital finance, and the Metaverse. Here are more specific details highlighting the direct advantages for the Bern Business School:
+
+1. Academic Prestige and Research Impact: The involvement in high-profile research projects and the subsequent publications in good journals have elevated the academic prestige of Bern Business School. For instance, the research on anomaly and fraud detection in blockchain networks and the exploration of NFTs in the Metaverse was one of the first publications on that topic at BFH.
+
+2. Enhanced Research Funding: The successful acquisition of grants, such as the MSCA Industrial Doctoral Network on Digital Finance with a substantial award of 4.5 million EUR, has significantly boosted research funding available to Bern Business School. This substantial influx of funds supports ongoing and future research projects, in particular related to digital finance innovations.
+
+3. Global Academic Networks: The collaborations with the American University of Sharjah, Renmin University and the University of Manchester have expanded Bern Business School's global academic and professional networks, also in the long run going forward.
+
+4. Curriculum Development and Innovation: Insights gained from these international collaborations have directly contributed to curriculum development at Bern Business School for the BSc and MSc courses in the Business Administration degree programme.
+
+5. Faculty Development and Expertise: Faculty members, including Joerg Osterrieder, have benefited from exposure to diverse research environments and methodologies.
+
+6. Student Opportunities: Collaborations have opened up new opportunities for student exchanges, internships, and participation in international research projects. This will be further explored with the international offices.
+
+7. Reputation in Digital Finance and Blockchain: The school's active role in significant research areas such as blockchain security, digital finance, and the Metaverse has strengthened its reputation as a leader in these fields. This recognition attracts both students and faculty interested in pursuing education and research in digital finance and technology.
+
+8. Policy Influence and Industry Collaboration: Research findings have implications for policy development and industry practices, positioning Bern Business School as a thought leader in shaping the future of digital finance. We will have a research workshop at the European Commission in May 2024.
+
+
+## 3.2. Partnership Aspects - Further Collaboration
+
+International Workshop Series on Blockchain and Digital Finance: An annual international workshop series will be initiated, rotating among the partner institutions, starting in 2025. These workshops will focus on emerging trends in blockchain technology, digital finance, and their societal impacts, aiming to foster ongoing dialogue and collaboration among international researchers and practitioners.
+
+NSF-SNF Research Application: A joint research application to the National Science Foundation (NSF) in the United States and the Swiss National Science Foundation (SNF) is planned for 2025-2026. This application will focus on securing funding for a project that explores innovative solutions in blockchain technology and digital finance, leveraging the expertise and research findings from the collaborative efforts between Bern Business School and its international partners. The project aims to address critical challenges in the security, efficiency, and scalability of blockchain networks, with potential applications in digital finance and beyond. The collaboration will bring together a multidisciplinary team of researchers from Switzerland and the UAE, aiming to push the boundaries of current knowledge and technology in the field.
+
+Collaboration in the MSCA Industrial Doctoral Network on Digital Finance: The partners involved in the Scientific Exchange are also planning to work together within the framework of the Marie Sklodowska-Curie Actions (MSCA) Industrial Doctoral Network on Digital Finance. This collaboration will focus on the development of a doctoral training program that combines academic research with industry experience, providing PhD candidates with a comprehensive understanding of digital finance, including blockchain technology, cryptocurrencies, and financial data science. The network will facilitate exchanges between doctoral candidates and researchers from participating institutions, offering them opportunities to engage in cutting-edge research projects, attend workshops and seminars, and gain practical experience through internships with industry partners. This initiative aims to train the next generation of digital finance experts, equipping them with the skills and knowledge needed to address emerging challenges in the field.
+
+As part of the ongoing collaborations and efforts to enhance educational offerings in the field of digital finance and technology, Stephen Chan will contribute his expertise by teaching in a Master of Science course focused on digital finance.
